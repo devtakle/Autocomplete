@@ -43,7 +43,7 @@ public class Trie {
             temp.children[arr[i] - 'A'] = new TrieNode(arr[i]);
             temp = temp.children[arr[i] - 'A'];
         }
-        //word has been added
+        //word has been added set check to true
         temp.check = true;
         temp.word = word;
     }
